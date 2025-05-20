@@ -14,8 +14,8 @@ uci set luci.main.mediaurlbase="\/luci-static\/kucat"\n\
 # 设置默认语言为中文简体\n\
 # uci set luci.main.lang="zh_cn"\n\
 # 设置主机名\n\
-uci set system.@system[0].hostname="DMWRT"\n\
+uci set system.@system[0].hostname="LWWRT"\n\
 # 设置默认 IP 地址\n\
-uci set network.lan.ipaddr="192.168.2.1"\n\
+uci set network.lan.ipaddr="192.168.31.1"\n\
 uci commit\n\
 ' package/lean/default-settings/files/zzz-default-settings
